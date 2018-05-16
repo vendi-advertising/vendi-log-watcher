@@ -1,0 +1,23 @@
+{
+    "name": "vendi-advertising/vendi-log-watcher",
+    "description": "Vendi Log Watcher",
+    "license": "MIT",
+    "require": {
+        "symfony/console": "3.2",
+        "symfony/yaml": "^3.3",
+        "webmozart/path-util": "^2.3",
+        "symfony/config": "^3.3",
+        "symfony/polyfill-iconv": "^1.4",
+        "padraic/phar-updater": "^1.0",
+        "symfony/finder": "^3.3",
+        "naneau/semver": "^0.0.7",
+        "desipa/tail": "dev-master"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^3.3",
+        "sensiolabs/security-checker": "^4.1",
+        "jakub-onderka/php-parallel-lint": "^0.9.2",
+        "jakub-onderka/php-console-highlighter": "^0.3.2",
+        "phpro/grumphp": "^0.12.0"
+    }
+}
